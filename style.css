@@ -172,3 +172,10 @@ article {
   margin: 0 auto;
   padding: 10px;
 }
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+  animation-name: fade;
+  animation-duration: 4s;

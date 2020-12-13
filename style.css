@@ -282,7 +282,7 @@ body {
 }
 body.fade-out {
     opacity: 0;
-    transition: fade;
+    transition: none;
 }
 
 	$(function() {

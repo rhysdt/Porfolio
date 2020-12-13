@@ -210,6 +210,24 @@ article {
   user-select: none;
 }
 
+
+/* Next & previous buttons number 2*/
+.prev2, .next2 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
 /* Position the "next button" to the right */
 .next {
   right: 0;
@@ -252,7 +270,7 @@ article {
   display: inline-block;
   transition: background-color 0.6s ease;
   
-  
+} 
   /* The dots/bullets/indicators test 2 */
 .dot2 {
   cursor: pointer;

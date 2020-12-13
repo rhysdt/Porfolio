@@ -36,19 +36,19 @@
 	<div class="slideshow-container">
 
 		<!-- Full-width images with number and caption text -->
-				<div class="mySlides fade">
+				<div class="mySlides3 fade">
 					<div class="numbertext">1 / 3</div>
 					<img src="slide1.png" style="width:1000px;height:350px;border:3px solid black;" align="center">
 					<div class="text">Spaceship (2019)</div>
 				</div>
 
-				<div class="mySlides fade">
+				<div class="mySlides3 fade">
 					<div class="numbertext">2 / 3</div>
 					<img src="slide2.png" style="width:1000px;height:350px;border:3px solid black;" align="center">
 					<div class="text">Castle (2018)</div>
 				</div>
 
-				<div class="mySlides fade">
+				<div class="mySlides3 fade">
 					<div class="numbertext">3 / 3</div>
 					<img src="knight helmet 2.png" style="width:1000px;height:350px;border:3px solid black;" align="center">
 					<div class="text">memorial (2018)</div>
@@ -130,7 +130,7 @@ function currentSlide(n) {
 
 function showSlides(n) {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
+  var slides = document.getElementsByClassName("mySlides3");
   var dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}    
   if (n < 1) {slideIndex = slides.length}

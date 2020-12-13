@@ -106,9 +106,9 @@
 
 			<!-- The dots/circles -->
 			<div style="text-align:center">
-				<span class="dot" onclick="currentSlide(1)"></span>
-				<span class="dot" onclick="currentSlide(2)"></span>
-				<span class="dot" onclick="currentSlide(3)"></span>
+				<span class="dot2" onclick="currentSlide(1)"></span>
+				<span class="dot2" onclick="currentSlide(2)"></span>
+				<span class="dot2" onclick="currentSlide(3)"></span>
 			</div>
 		</div>
 	</div>
@@ -161,7 +161,7 @@ function currentSlide(n) {
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides2");
-  var dots = document.getElementsByClassName("dot");
+  var dots = document.getElementsByClassName("dot2");
   if (n > slides.length) {slideIndex = 1}    
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {

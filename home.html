@@ -8,7 +8,7 @@
 
 
 	<body style="background-color:gray;">
-	<script>document.body.className+='fade-out';</script>
+	
 		<!--navigation bar-->
 		
 		<section class="nav-bar">
@@ -81,12 +81,24 @@
 	</div>
 	
 	
-	<script>
-		$(function() {
-		$('body').removeClass('fade-out');
-	});
+		<div class="m-scene" id="main">
+	  <div class="m-header scene_element scene_element--fadein">
+		...
+	  </div>
+	  <div class="m-page scene_element scene_element--fadeinup">
+		...
+	  </div>
+	</div>
 	
-	</script>
+		<div class="m-scene" id="main">
+	  <div class="m-aside scene_element scene_element--fadein">
+		...
+	  </div>
+	  <div class="m-right-panel m-page scene_element scene_element--fadeinright">
+		...
+	  </div>
+	</div>
+	
 		
 		
 <!--		more slideshow things over here */ -->

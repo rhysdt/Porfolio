@@ -275,3 +275,38 @@ article {
 
 
 
+.box{
+	width:32%;
+	height:auto;
+	margin:5px auto;
+	display:inline-block;
+	margin-left: 17%;
+}
+	
+.boxR{
+	width:32%;
+	height:auto;
+	margin:5px auto;
+	display:inline-block;
+	float:right;
+	margin-right: 17%;
+}
+
+
+
+
+@media screen and (max-width:800px){
+.box{
+	width:100%;
+	height:auto;
+	margin:10px auto;
+}
+}
+
+@media screen and (max-width:800px){
+.boxR{
+	width:100%;
+	height:auto;
+	margin:10px auto;
+}
+}

@@ -282,5 +282,9 @@ body {
 }
 body.fade-out {
     opacity: 0;
-    transition: none;
+    transition: fade;
 }
+
+	$(function() {
+		$('body').removeClass('fade-out');
+	});

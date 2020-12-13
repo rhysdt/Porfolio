@@ -186,7 +186,7 @@ article {
 
 /* Hide the images by default */
 .mySlides {
-  display: show;
+  display: one;
 }
 
 /* Next & previous buttons */

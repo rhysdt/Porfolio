@@ -7,6 +7,28 @@
 
 
 	<body style="background-color:gray;">
+	<audio id="myAudio">
+  <source src="rick rollo.ogg" type="audio/ogg">
+  <source src="rick roll.mp3" type="audio/mpeg">
+  
+</audio>
+
+<p>Listne to some music while your here. Just click the buttons to play or pause the audio.</p>
+
+<button onclick="playAudio()" type="button">Play Audio</button>
+<button onclick="pauseAudio()" type="button">Pause Audio</button> 
+
+<script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 
+</script>
 		<!--navigation bar-->
 		
 		<section class="nav-bar">

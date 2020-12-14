@@ -39,13 +39,76 @@
 				
 				
 				
+			<div id="Contactus" class="tabcontent">
+		<div class="container fixed">
+			<div class="container" style="background-color:#31323F;border:3px solid black;">
+				<div align="center" style="color: white;" font="Helvetica">
+					<h1><strong><b><font face = "Helvetica">Contact us</font></b></strong></h1>
+				</div>
+				<div class="row" style="color: black">
+					<div class="col-sm-12">
+						<div class="container">
+							<div class="row" style="color: black">
+								<div class="col-sm-3" >
+								<div style="color: white;font-size:16px" font="Helvetica">
+										<p>If you have any feedback or wish to get in contact please enter your details here</p>
+									</div>
+									<form action="/action_page.php"> 
+									<br>
+										Name:<br>
+										<input type="text" name="name" placeholder="Your name..">
+									<br>
+										Email:<br>
+										<input type="email" name="email" placeholder="Your email..">
+									<br>
+										Date of birth:<br>
+										<input type="date" name="full calendar" placeholder="Your date of birth..">
+									<br>
+										<input type="radio" name="gender" value="male checked">
+										Male<br>
+										<input type="radio" name="gender" value="female"> 
+										Female<br>
+										<input type="radio" name="gender" value="other">
+										Other<br>
+										Feedback:<br>
+										<textarea id="subject" name="subject" placeholder="Your feedback.." style="height:50px"></textarea>
+										<br>
+										<input type="submit" value="Submit">
+										<input type="reset" value="Reset">
+									</form>
+									</div>
+								<div class="col-sm-9" >
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="container">
+							<div class="row" style="color: black">
+								<div class="col-sm-3" >
+								</div>
+							</div>
+						</div>
+						<br> <br>
+					</div>
+				</div>
+			</div>
+		</div>	
+				
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
 						<!DOCTYPE html> 
 			<html> 
 			   
 			<head> 
 				<title> 
-					How to create fade-in effect 
-					on page load using CSS 
 				</title> 
 			   
 				<style> 
@@ -64,6 +127,29 @@
 					} 
 				</style> 
 			</head> 
+			
+			
+	<script>
+		function openPage(pageName,elmnt,color) {
+			var i, tabcontent, tablinks;
+			tabcontent = document.getElementsByClassName("tabcontent");
+			for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none";
+			}
+			tablinks = document.getElementsByClassName("tablink");
+			for (i = 0; i < tablinks.length; i++) {
+				tablinks[i].style.backgroundColor = "";
+			}
+			document.getElementById(pageName).style.display = "block";
+			elmnt.style.backgroundColor = color;
+
+		}
+		document.getElementById("defaultOpen").click();
+	</script>
+			
+			
+			
+			
 			
 		</html>
 		
